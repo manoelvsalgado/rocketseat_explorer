@@ -1,0 +1,87 @@
+body {
+margin: auto;
+text-align: center;
+background: #2F2E41;
+}
+
+.page {
+  width: 1280px;
+  height: 720px;
+  padding-top: 101px;
+  padding-left: 99px;
+  padding-right: 89px;
+  padding-bottom: 157px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 1083px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 101px;
+}
+
+main {
+  width: 1092px;
+  height: 283px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 157px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+}
+
+a, footer {
+  font-family: 'JetBrains Mono', monospace;
+  color: #C2C2C2; 
+  text-decoration: none;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+  line-height: 40px;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color:#C2C2C2;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+#line {
+  width: 568px;
+  margin:0 auto 34px;
+  border: 1px solid #00BFA6;
+}
+
+footer {
+  margin: auto;
+}
+
+#lock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
