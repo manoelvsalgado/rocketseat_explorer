@@ -1,10 +1,9 @@
 export default function Controls({
-  buttonPause,
   buttonPlay,
-  buttonSet,
   buttonAdd,
   buttonSub,
-  buttonStop
+  buttonStop,
+  minutes
 }) {
 
   function addMinutes() {
@@ -27,6 +26,6 @@ export default function Controls({
 
   return {
     addMinutes,
-    subMinutes
+    subMinutes,
   }
 }

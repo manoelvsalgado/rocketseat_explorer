@@ -5,17 +5,14 @@ import {
   buttonStop
 } from "./elements.js"
 
-export default function({controls, timer}) {
+export default function({controls, timer, sound}) {
 
   buttonPlay.addEventListener('click', function() {
-    controls.play()
     timer.countdown()
   })
 
   buttonStop.addEventListener('click', function() {
-    controls.reset()
     timer.reset()
-    sound.pressButton()
   })
 
   buttonAdd.addEventListener('click', function() {

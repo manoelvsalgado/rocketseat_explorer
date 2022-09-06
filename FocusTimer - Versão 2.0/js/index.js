@@ -3,19 +3,20 @@ import Timer from "./timer.js"
 import Sound from "./sounds.js"
 import Events from "./events.js"
 import {
-  buttonPause,
   buttonPlay,
-  buttonSet,
   buttonStop,
+  buttonAdd,
+  buttonSub,
   minutesDisplay,
   secondsDisplay,
 } from "./elements.js"
 
 const controls = Controls({
-  buttonPause,
   buttonPlay,
-  buttonSet,
-  buttonStop
+  buttonAdd,
+  buttonSub,
+  buttonStop,
+  minutes
 })
 
 const timer = Timer({
